@@ -21,7 +21,7 @@ String sdate  = request.getParameter("sdate");
 String edate = request.getParameter("edate");
 String docent = request.getParameter("docent");
 
-// cnrk 
+// 그냥한번 해봅시다
 
 String sql = "update exhibition set ";
 sql+=" extitle = ?, genre = ?, author=?, rating=?,texts=?,placename=?, exprice=?,sdate=?,edate=?,docent=?";
